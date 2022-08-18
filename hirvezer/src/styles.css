@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
+}
+
+.box {
+  padding: 10px 10px;
+  background-color: rgb(240, 240, 240);
+  min-height: 350px;
+}
+
+.box h5 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
